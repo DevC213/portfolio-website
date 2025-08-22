@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+.NavBar{
+    background-color: #333333;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.NavBar li{
+    float: right;
+}
+.NavBar a{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+ul, ol{
+    font-size: 24px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.languages, .tools{
+    column-count: 4;
+    font-size: 24px;
+}
+.skills-list{
+    font-size: 24px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+section, div{
+    background-color: #888888 !important;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+section{
+    padding-top: 16px;
+    --bs-bg-opacity: 0 !important;
+}
+footer{
+    text-align: center;
+    padding: 16px;
+    font-size: 16px;
+}
+img{
+    max-height: 800px;
+}
+.projectImage img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 48px;
+}
+h2{
+    font-size: 36px;
+    text-align: center;
+}
+.bio{
+    font-size: 20px;
+    text-align: center;
+}
+.name{
+    font-size: 72px;
+    text-align: center;
+}
+.school{
+    font-size: 25px;
+}
+.employeer{
+    font-size: 25px;
+}
+.sectionTitle{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+.jobTitle{
+    font-size: 36px;
+}
+#root{
+    background-color: #888888 !important;
+}
+.bio{
+    text-align: center;
+    text-wrap: balance;
+}
+@media (max-width: 1300px ) {
+    img{
+        max-height: 400px;
+    }
+}
+@media (max-width:800px) {
+
+    ul, ol{
+        font-size: 16px;
+    }
+    .languages, .tools{
+        column-count: 2;
+        font-size: 16px;
+    }
+    .sectionTitle{
+        font-size: 36px;
+    }
+    img{
+        max-height: 400px;
+    }
+}
+@media (max-width: 600px) {
+    ul, ol{
+        font-size: 10px;
+    }
+    .languages, .tools{
+        column-count: 1;
+        font-size: 10px;
+    }
+    .sectionTitle{
+        font-size: 36px;
+    }
+    img{
+        max-height: 300px;
+    }
 }
