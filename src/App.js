@@ -37,6 +37,14 @@ export default function App() {
             <Education/>
             <JobHistory/>
             <References/>
+            <section className="contact" id="contact">
+                <h3 className="sectionTitle">Contact Information</h3>
+                <ul className="contact">
+                    <li>Phone: 801-616-1706</li>
+                    <li>Email: devingcoombs99@gmail.com</li>
+                    <li><a href="otherFiles/Devin Coombs Resume 2024.pdf" download>Download resume</a></li>
+                </ul>
+            </section>
             {/* Footer */}
             <footer className="footer">
                 © {new Date().getFullYear()} Devin Coombs. All rights reserved.

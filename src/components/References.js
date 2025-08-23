@@ -12,7 +12,7 @@ export default function References(){
                             Nathaniel Young
                             <ul>
                                 <li className="">Relation: Friend</li>
-                                <li className="">Phone: (801)-687-3065</li>
+                                <li className="">Phone: 801-687-3065</li>
                             </ul>
                         </li>
                         <li className="">
