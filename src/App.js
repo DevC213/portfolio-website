@@ -36,13 +36,13 @@ export default function App() {
             <ImageCarousel/>
             <Education/>
             <JobHistory/>
-            <References/>
             <section className="contact" id="contact">
                 <h3 className="sectionTitle">Contact Information</h3>
                 <ul className="contact">
                     <li>Phone: 801-616-1706</li>
                     <li>Email: devingcoombs99@gmail.com</li>
                     <li><a href="otherFiles/Devin Coombs Resume 2024.pdf" download>Download resume</a></li>
+                    <li>References available upon request</li>
                 </ul>
             </section>
             {/* Footer */}
