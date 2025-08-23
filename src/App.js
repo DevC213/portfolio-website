@@ -17,7 +17,7 @@ export default function App() {
                         <ul className="NavBar">
                             <li><a href="#about" className="hover:text-blue-600">About </a></li>
                             <li><a href="#projects" className="hover:text-blue-600">Projects </a></li>
-                            <li><a className="hover:text-blue-600">Contact </a></li>
+                            <li><a href="#contact" className="hover:text-blue-600">Contact </a></li>
                         </ul>
                     <h1 className="name">Devin Coombs</h1>
                     <h2 className="jobTitle">Bilingual Software Engineer, Software QA, and Game Developer</h2>
