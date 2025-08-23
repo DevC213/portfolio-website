@@ -2,7 +2,6 @@ import React from "react"
 import "./App.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Skills from "./components/Skills.js";
-import References from "./components/References";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
 import JobHistory from "./components/JobHistory";
