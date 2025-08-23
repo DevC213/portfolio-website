@@ -1,6 +1,6 @@
-﻿import React from "react";
-import {useState} from "react";
-import Carousel from 'react-bootstrap/Carousel';
+﻿import React from "react"
+import {useState} from "react"
+import Carousel from 'react-bootstrap/Carousel'
 import screenShot2 from '../Images/Screenshot (104).png'
 import screenShot3 from '../Images/Screenshot (106).png'
 import screenShot4 from '../Images/Screenshot (108).png'
