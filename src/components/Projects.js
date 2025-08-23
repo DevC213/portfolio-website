@@ -11,7 +11,7 @@ export default function Projects(){
                         <li> Home Depot automation in WebdriverIO
                             <ul className="projectOne">
                                 <li>
-                                    I choose and fully automated four components on the Home Depot website.
+                                    I chose and fully automated four components on the Home Depot website.
                                     The four I choose were:
                                     <ul>
                                         <li>The "our brands" on the home page</li>
